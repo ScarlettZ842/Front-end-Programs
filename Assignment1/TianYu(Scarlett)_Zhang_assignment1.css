@@ -1,0 +1,87 @@
+.table-style {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-style td,
+.table-style th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-style th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: black;
+  color: white;
+}
+
+.table-style tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-style tr:hover {
+  background-color: #ddd;
+}
+
+#google-style-seach-box {
+  margin: 0 auto;
+  width: 575px;
+  border: 1px solid #dcdcdc;
+  border-radius: 35px;
+}
+
+#google-style-seach-box:hover {
+  box-shadow: 1px 1px 10px 1px grey;
+}
+
+#google-style-seach-box:focus-within {
+  box-shadow: 1px 1px 10px 1px black;
+  outline: None;
+}
+
+.searchbar {
+  height: 23px;
+  width: 500px;
+  font-size: 17px;
+  outline: none;
+  margin: 10px 0 10px 25px;
+  border: none;
+}
+
+.voice {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  right: 19px;
+}
+
+.magnifier {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 18px;
+}
+
+.order-list {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-position: inside;
+}
+
+.unordered-list {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-position: inside;
+}
+
+.ca-cities {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
