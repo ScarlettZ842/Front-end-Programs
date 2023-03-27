@@ -1,0 +1,27 @@
+/*#Add-Todo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+form {
+  display: flex;
+}*/
+
+input[type="text"] {
+  flex-grow: 1;
+}
+
+#Add-button {
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.Delete-button {
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
